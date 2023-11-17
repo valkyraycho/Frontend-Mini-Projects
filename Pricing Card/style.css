@@ -1,0 +1,156 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+#card {
+    width: 80%;
+    height: auto;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#top-section {
+    width: 100%;
+    height: 45%;
+    padding: 50px;
+}
+
+#top-section h2{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 25px;
+}
+
+#top-section h4{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+}
+
+#top-section p{
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 5px;
+}
+
+#bottom-section {
+    width: 100%;
+    height: 55%;
+    display: block;
+    color : white;
+}
+
+
+#bottom-left-section {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+}
+
+#bottom-left-section h4{
+    margin-bottom: 25px;
+    font-size: 1.3rem;
+}
+
+#price-container {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+#price {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#price-frequency {
+    margin-left: 10px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+
+#bottom-left-section p{
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+}
+
+button {
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #A9c42D;
+    transform: scale(1.01);
+}
+
+
+
+#bottom-right-section {
+    width: 100%;
+    height: 100%;
+    background-color: hsla(179, 62%, 43%, 0.8);
+    padding: 30px;
+}
+
+#bottom-right-section h4{
+    margin-bottom: 25px;
+    font-size: 1.3rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+li{
+    margin-bottom: 5px;
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+
+@media (min-width: 576px) {
+
+    #bottom-section {
+        display: flex;
+    }
+
+    #card {
+        width: 720px;
+        height: 540px;
+    }
+
+    #bottom-left-section,
+    #bottom-right-section {
+        width: 50%;
+        height: 100%;   
+        padding: 40px;
+    }
+}
