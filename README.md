@@ -1,4 +1,4 @@
-# Frontend-Projects
+# Frontend Mini Projects
 - [Pricing Card](https://valkyraycho.github.io/Frontend-Pricing-Card/)
 - [Profile Card](https://valkyraycho.github.io/Frontend-Profile-Card/)
 - [Testinomial Grid](https://valkyraycho.github.io/Frontend-Testinomial-Grid/)
