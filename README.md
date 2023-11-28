@@ -3,3 +3,4 @@
 - [Profile Card](https://valkyraycho.github.io/Frontend-Profile-Card/)
 - [Testinomial Grid](https://valkyraycho.github.io/Frontend-Testinomial-Grid/)
 - [Holy Grail](https://valkyraycho.github.io/Frontend-Holy-Grail/)
+- [Taco Shop](https://valkyraycho.github.io/Frontend-Taco-Shop/)
