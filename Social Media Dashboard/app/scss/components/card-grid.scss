@@ -1,0 +1,63 @@
+@use "../util" as *;
+
+.card-grid {
+  &__title {
+    width: 100%;
+    margin: rem(22) 0;
+  }
+
+  background-color: var(--CARD-COLOR);
+  color: var(--TEXT-GREY);
+  border-radius: 5px;
+  padding: rem(25);
+  transition: background-color 150ms ease-in-out;
+
+  display: grid;
+  gap: rem(20);
+  grid-template-areas:
+    "text icon"
+    "number change";
+
+  &:hover {
+    background-color: var(--HOVER-COLOR);
+  }
+
+  &__text {
+    grid-area: "text";
+    font-weight: 700;
+    font-size: rem(12);
+  }
+
+  &__icon {
+    grid-area: "icon";
+    justify-self: end;
+  }
+
+  &__number {
+    grid-area: "number";
+    color: var(--TEXT-COLOR);
+    align-self: end;
+  }
+
+  &__change {
+    grid-area: "change";
+    display: flex;
+    font-size: rem(12);
+    font-weight: 700;
+    align-self: end;
+    align-items: center;
+    justify-content: end;
+
+    &__icon {
+      margin-right: rem(4);
+    }
+
+    &__up {
+      color: var(--LIMEGREEN);
+    }
+
+    &__down {
+      color: var(--BRIGHTRED);
+    }
+  }
+}

@@ -1,0 +1,106 @@
+@use "../util" as *;
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: rem(20) rem(30);
+  align-items: center;
+
+  @include breakpoint(medium) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include breakpoint(large) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  background-color: var(--CARD-COLOR);
+  color: var(--TEXT-GREY);
+  text-align: center;
+  padding: rem(25);
+  border-radius: 5px;
+  transition: background-color 150ms ease-in-out;
+
+  &:hover,
+  &__border:hover {
+    background-color: var(--HOVER-COLOR);
+  }
+
+  &--facebook {
+    border-top: 5px solid var(--FACEBOOK);
+  }
+  &--twitter {
+    border-top: 5px solid var(--TWITTER);
+  }
+
+  &__border {
+    padding: rem(25);
+    background-color: var(--CARD-COLOR);
+    transition: background-color 150ms ease-in-out;
+  }
+
+  &--instagram {
+    padding: rem(5) 0 0 0;
+    background: linear-gradient(
+      to right,
+      var(--INSTAGRAM-START),
+      var(--INSTAGRAM-END)
+    );
+
+    border-radius: 5px;
+  }
+  &--youtube {
+    border-top: 5px solid var(--YOUTUBE);
+  }
+
+  &__platform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: rem(24);
+
+    &__icon {
+      margin-right: rem(8);
+    }
+
+    &__username {
+      font-weight: 700;
+      font-size: rem(12);
+    }
+  }
+
+  &__count {
+    font-size: rem(56);
+    color: var(--TEXT-COLOR);
+    margin-bottom: 0;
+  }
+
+  &__label {
+    font-size: rem(12);
+    text-transform: uppercase;
+    letter-spacing: rem(5);
+    margin-bottom: rem(25);
+  }
+
+  &__change {
+    display: flex;
+    font-size: rem(12);
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+
+    &__icon {
+      margin-right: rem(4);
+    }
+
+    &__up {
+      color: var(--LIMEGREEN);
+    }
+
+    &__down {
+      color: var(--BRIGHTRED);
+    }
+  }
+}

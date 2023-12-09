@@ -1,0 +1,76 @@
+@use "../util" as *;
+
+.toggle {
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  @include breakpoint(medium) {
+    display: grid;
+    grid-template-columns: 1fr rem(48);
+    gap: rem(10);
+    width: auto;
+  }
+
+  label {
+    font-size: rem(14);
+    font-weight: 700;
+    color: var(--TEXT-GREY);
+    align-self: center;
+
+    &[for="dark"] {
+      grid-column: 1/2;
+      justify-self: end;
+    }
+  }
+
+  &__wrapper {
+    grid-column: 2/3;
+    height: rem(24);
+    display: flex;
+    position: relative;
+  }
+
+  input[type="radio"] {
+    opacity: 0%;
+    width: rem(24);
+    height: rem(24);
+    margin: 0;
+  }
+
+  &__background {
+    height: 100%;
+    display: block;
+    position: absolute;
+    width: 100%;
+    border-radius: rem(12);
+    background: var(--TOGGLE-BG-COLOR);
+    pointer-events: none;
+  }
+
+  &__button {
+    position: absolute;
+    align-self: center;
+    left: calc(100% - rem(21));
+    width: rem(18);
+    height: rem(18);
+    border-radius: 50%;
+    background-color: var(--TOGGLE-COLOR);
+    transition: all 0.15s ease-in-out;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &__button {
+      left: rem(3);
+    }
+  }
+
+  #light:checked ~ .toggle__button {
+    left: calc(100% - rem(21));
+  }
+
+  #dark:checked ~ .toggle__button {
+    left: rem(3);
+  }
+}
