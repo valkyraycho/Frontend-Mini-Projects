@@ -6,3 +6,4 @@
 - [To Do List](https://valkyraycho.github.io/Frontend-To-Do-List/)
 - [Social Media Dashboard with Dark Mode Toggle](https://valkyraycho.github.io/Frontend-Social-Media-Dashboard/)
 - [Wiki Search App](https://valkyraycho.github.io/Frontend-Wiki-Search-App/)
+- [Rock Paper Scissors](https://valkyraycho.github.io/Frontend-Rock-Paper-Scissors/)
