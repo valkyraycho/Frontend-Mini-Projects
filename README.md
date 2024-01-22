@@ -9,3 +9,4 @@
 - [Rock Paper Scissors](https://valkyraycho.github.io/Frontend-Rock-Paper-Scissors/)
 - [React Dashboard with Syncfusion](https://syncfusion-dashboard-with-react.netlify.app/)
   - [GitHub Repo of this dashboard](https://github.com/valkyraycho/Frontend-React-Dashboard)
+- This [repo](https://github.com/valkyraycho/Frontend-React-Redux-Blog-Project) contains a React project with Redux Toolkit but is not deployed yet.
