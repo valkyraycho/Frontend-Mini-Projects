@@ -7,6 +7,8 @@
 - [Social Media Dashboard with Dark Mode Toggle](https://valkyraycho.github.io/Frontend-Social-Media-Dashboard/)
 - [Wiki Search App](https://valkyraycho.github.io/Frontend-Wiki-Search-App/)
 - [Rock Paper Scissors](https://valkyraycho.github.io/Frontend-Rock-Paper-Scissors/)
+- [React GitHub Account Search](https://github-account-searching.netlify.app/)
+  - [GitHub Repo](https://github.com/valkyraycho/Frontend-GitHub-Search)
 - [React Dashboard with Syncfusion](https://syncfusion-dashboard-with-react.netlify.app/)
-  - [GitHub Repo of this dashboard](https://github.com/valkyraycho/Frontend-React-Dashboard)
+  - [GitHub Repo](https://github.com/valkyraycho/Frontend-React-Dashboard)
 - This [repo](https://github.com/valkyraycho/Frontend-React-Redux-Blog-Project) contains a React project with Redux Toolkit but is not deployed yet.
