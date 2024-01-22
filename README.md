@@ -7,3 +7,5 @@
 - [Social Media Dashboard with Dark Mode Toggle](https://valkyraycho.github.io/Frontend-Social-Media-Dashboard/)
 - [Wiki Search App](https://valkyraycho.github.io/Frontend-Wiki-Search-App/)
 - [Rock Paper Scissors](https://valkyraycho.github.io/Frontend-Rock-Paper-Scissors/)
+- [React Dashboard with Syncfusion](https://syncfusion-dashboard-with-react.netlify.app/)
+  - [GitHub Repo of this dashboard](https://github.com/valkyraycho/Frontend-React-Dashboard)
